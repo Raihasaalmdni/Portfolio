@@ -1,0 +1,268 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*style css*/
+
+body {
+  font-size: 20px;
+  background-image: url(flowers.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  width: auto;
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+  height: 160px;
+  background-color: rgb(77, 77, 77);
+  display: inline-block;
+  margin: auto;
+  border-bottom: rgb(24, 24, 24) 5px solid;
+  position: fixed;
+  z-index: 99;
+}
+
+.header h1 {
+  font-size: 90px;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: -10px 10px 0px #404141, -15px 15px 0px #262727;
+  margin-top: 10px;
+  margin-left: 50px;
+  letter-spacing: 10px;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.header a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+a:hover {
+  background-color: rgb(158, 160, 161);
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.nama {
+  height: 700px;
+}
+
+.pembungkus {
+  width: 900px;
+  height: 700px;
+  margin: auto;
+}
+
+.nama h1 {
+  font-size: 100px;
+  font-family: arial;
+  color: rgba(255, 255, 255, 0);
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  top: 350px;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.nama h2 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 350px;
+  padding-left: 650px;
+}
+
+/* content About Start*/
+
+.content1 {
+  height: 1000px;
+  background-color: rgb(185, 185, 185);
+  margin-bottom: 500px;
+  border-top: 1;
+}
+
+.jangkar1 {
+  position: absolute;
+  top: 600px;
+}
+
+.content1 h1 {
+  text-align: center;
+  position: relative;
+  top: 130px;
+  font-size: 50px;
+}
+
+.content1 p {
+  font-size: 22px;
+  padding-top: 200px;
+  text-align: center;
+  line-height: 40px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Hiasan content */
+
+.kotak {
+  height: 180px;
+  width: 150px;
+  background-color: #6c6d6d;
+  margin: auto;
+  position: relative;
+  box-shadow: 12px 12px 0 -4px rgb(38, 38, 38);
+  top: 100px;
+  transition: 0.3s;
+}
+
+.kotak:hover {
+  box-shadow: 30px 29px 5px -4px rgba(38, 38, 38, 0.3);
+  top: 70px;
+  right: 20px;
+}
+
+/* Content About End */
